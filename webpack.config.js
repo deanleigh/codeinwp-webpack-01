@@ -13,5 +13,8 @@ module.exports = {
           inject: 'body'
         })
       ],
-      mode: 'development'
+      mode: 'development',
+      output: {
+        clean: true
+      }
 };
